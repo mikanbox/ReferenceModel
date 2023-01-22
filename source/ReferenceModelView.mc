@@ -3,6 +3,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
+// This class construct the `view layouts` on WatchFace.
 class ReferenceModelView extends WatchUi.WatchFace {
 
     function initialize() {
@@ -17,10 +18,12 @@ class ReferenceModelView extends WatchUi.WatchFace {
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
+    // View 自体は複数レイヤー構成で見えなくすることもできるっぽい？状態を保存しておいて復元するならここで呼ぶっぽい
     function onShow() as Void {
     }
 
     // Update the view
+    // 更新頻度は？
     function onUpdate(dc as Dc) as Void {
         // Get and show the current time
         var clockTime = System.getClockTime();

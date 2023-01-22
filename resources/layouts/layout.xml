@@ -1,3 +1,40 @@
 <layout id="WatchFace">
-    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label
+    id="TimeLabel"
+    x="center"
+    y="center"
+    font="Graphics.FONT_LARGE"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_BLUE"
+  />
+
+    <label
+    id="TimeLabel2"
+    x="center"
+    y="center"
+    font="Graphics.FONT_MEDIUM"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_BLUE"
+  />
+    <label
+    id="TimeLabel3"
+    x="center"
+    y="70%"
+    font="Graphics.FONT_MEDIUM"
+    color="Graphics.COLOR_RED"
+    background="0x0000ff"
+  />
+
+    <label
+    id="TimeLabel4"
+    text="Page"
+    x="10"
+    y="25"
+    font="Gfx.FONT_SMALL"
+    color="Gfx.COLOR_WHITE"
+  />
+
+
+
+
 </layout>
